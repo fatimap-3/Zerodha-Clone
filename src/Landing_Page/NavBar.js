@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
     return (
             <nav class="navbar navbar-expand-lg bg-white border-bottom">
                 <div class="container p-2">
-                    <a class="navbar-brand" href='#'>
-                    <img src='Media/Images/logo.svg' alt='Logo' style={{width:"20%"}} /> </a>
+                    <Link class="navbar-brand" to='/'>
+                    <img src='Media/Images/logo.svg' alt='Logo' style={{width:"20%"}} /> </Link>
                     <button 
                     class="navbar-toggler" 
                     type="button" 
@@ -21,19 +22,19 @@ function NavBar() {
                         <form class="navbar-nav" role="search">
                         <ul class="navbar-nav mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" style={{color:"grey"}}>Signup</a>
+                                <Link class="nav-link active" to="/signup" style={{color:"grey"}}>Signup</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" style={{color:"grey"}}>About</a>
+                                <Link class="nav-link active" to="/about" style={{color:"grey"}}>About</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" style={{color:"grey"}}>Products</a>
+                                <Link class="nav-link active" to="/products-page" style={{color:"grey"}}>Products</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" style={{color:"grey"}}>Pricing</a>
+                                <Link class="nav-link active" to="/pricing" style={{color:"grey"}}>Pricing</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" style={{color:"grey"}}>Support</a>
+                                <Link class="nav-link active" to="/support" style={{color:"grey"}}>Support</Link>
                             </li>
                         </ul>
                         </form>

@@ -9,13 +9,11 @@ import Footer from '../Footer';
 function ProductsPage() {
     return ( 
         <>
-        <NavBar />
         <Hero />
         <LeftSection />
         <RightSection />
         <Universe />
-        <Footer />
-        </>
+       </>
      );
 }
 
