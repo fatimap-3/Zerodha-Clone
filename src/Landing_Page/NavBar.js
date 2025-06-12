@@ -21,19 +21,19 @@ function NavBar() {
                         <form class="navbar-nav" role="search">
                         <ul class="navbar-nav mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Signup</a>
+                                <a class="nav-link active" href="#" style={{color:"grey"}}>Signup</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">About</a>
+                                <a class="nav-link active" href="#" style={{color:"grey"}}>About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Products</a>
+                                <a class="nav-link active" href="#" style={{color:"grey"}}>Products</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Pricing</a>
+                                <a class="nav-link active" href="#" style={{color:"grey"}}>Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Support</a>
+                                <a class="nav-link active" href="#" style={{color:"grey"}}>Support</a>
                             </li>
                         </ul>
                         </form>
