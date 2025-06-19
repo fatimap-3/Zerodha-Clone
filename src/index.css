@@ -15,3 +15,39 @@ code {
 .nav-link{
   margin-left: 20px;
 }
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a {
+  color: white;
+  text-decoration: underline;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px 0;
+}
+
+#supportHero input {
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+
+.quick-links a {
+  margin-right: 25px;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.featured-links li {
+  margin-bottom: 10px;
+}
