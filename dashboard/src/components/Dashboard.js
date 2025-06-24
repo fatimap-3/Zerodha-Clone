@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Apps from "./Apps";
-import Holdings from "./Holdings";
-import Funds from "./Funds";
 import Orders from "./Orders";
+import Holdings from "./Holdings";
 import Positions from "./Positions";
+import Funds from "./Funds"
+import Apps from "./Apps";
 import Summary from "./Summary";
 
 
