@@ -1,7 +1,15 @@
 import React from "react";
 
+import Dashboard from "./Dashboard";
+import TopBar from "./TopBar";
+
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <TopBar />
+      <Dashboard />
+    </>
+  );
 };
 
 export default Home;
