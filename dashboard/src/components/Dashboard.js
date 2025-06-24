@@ -7,10 +7,13 @@ import Positions from "./Positions";
 import Funds from "./Funds"
 import Apps from "./Apps";
 import Summary from "./Summary";
+import WatchList from "./WatchList";
 
 
 const Dashboard = () => {
   return (
+    <div className="dashboard-container">
+      <WatchList/>
       <div className="content">
         <Routes>
           <Route exact path="/" element={<Summary />} />
@@ -20,6 +23,7 @@ const Dashboard = () => {
           <Route path="/funds" element={<Funds/>}/>
           <Route path="/apps" element={<Apps />} />
         </Routes>
+      </div>
       </div>
   );
 };
