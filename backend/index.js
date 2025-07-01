@@ -9,7 +9,7 @@ const port = process.env.PORT || 3002;
 const url = process.env.MONGO_URL;
 
 const holdingsRoute = require("./routes/holdingsRoute");
-const positionsRoute = require("./routes/positionsRoute");
+const positionsRoute = require("./routes/positionRoute");
 const userRoute = require("./routes/userRoute");
 const orderRoute = require("./routes/orderRoute");
 
